@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  display: block;
+  justify-content: center;
+}
+.card-box {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.box {
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  height: 250px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.box h3 {
+  font-size: 24px;
+}
+.box span {
+  font-size: 14px;
+  color: red;
+}
+.box p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.button-left {
+  top: 50%;
+  background: none;
+  border: none;
+  font-size: 30px;
+  padding: 10px;
+  cursor: pointer;
+}
+.button-right {
+  top: 50%;
+  background: none;
+  border: none;
+  font-size: 30px;
+  padding: 10px;
+  cursor: pointer;
+}
